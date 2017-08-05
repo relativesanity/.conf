@@ -15,4 +15,14 @@ else
   echo 'Ansible installed'
 fi
 
+if [[ ! -e $HOME/.conf ]]; then
+  echo 'Downloading config'
+  git clone https://github.com/relativesanity/.conf $HOME/.conf
+else
+  echo 'Config downloaded'
+fi
+
+pushd $HOME/.conf
+echo 'Updating config'
+git pull origin master
 echo 'Ready to play'
