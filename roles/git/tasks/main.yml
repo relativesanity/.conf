@@ -1,5 +1,17 @@
 ---
 - name: install git
   homebrew: name=git
-- name: copy git config
-  template: src=gitconfig dest=~/.gitconfig
+- name: configure git name
+  git_config:
+    name: user.name
+    scope: global
+    value: "{{ full_name }}"
+- name: configure git email address
+  git_config:
+    name: user.email
+    scope: global
+- name: configure git color
+  git_config:
+    name: color.ui
+    scope: global
+    value: true
