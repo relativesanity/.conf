@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  vars:
+    full_name: Jonathan Barrett
+    email_address: j.e.barrett@gmail.com
+  tasks:
+  - name: copy git config
+    template: src=gitconfig dest=~/.gitconfig
