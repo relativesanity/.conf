@@ -29,7 +29,11 @@ else
   echo 'Config downloaded'
 fi
 
-pushd $HOME/.conf
+echo ''
 echo 'Updating config'
+
+cd $HOME/.conf
 git pull origin master
+
+echo ''
 echo 'Ready to play'
