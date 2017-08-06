@@ -2,4 +2,5 @@
 - hosts: localhost
   roles:
     - homebrew
+    - ssh
     - git
