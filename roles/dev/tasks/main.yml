@@ -1,0 +1,5 @@
+---
+- name: install dev software
+  homebrew_cask: name={{ item }}
+  with_items:
+    - iterm2
