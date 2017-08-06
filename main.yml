@@ -4,5 +4,11 @@
     full_name: Jonathan Barrett
     email_address: j.e.barrett@gmail.com
   tasks:
+  - name: update homebrew
+    homebrew: update_homebrew=yes
+  - name: tap brew services
+    homebrew_tap: name=homebrew/services
+  - name: install git
+    homebrew: name=git
   - name: copy git config
     template: src=gitconfig dest=~/.gitconfig
