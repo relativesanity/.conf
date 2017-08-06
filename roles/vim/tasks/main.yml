@@ -3,3 +3,9 @@
   homebrew: name=vim
 - name: configure vim
   copy: src=vimrc dest=~/.vimrc
+- name: create vim bundle directory
+  file: path=~/.vim/bundle state=directory
+- name: install vundle
+  git: repo=https://github.com/VundleVim/Vundle.vim.git dest=~/.vim/bundle/Vundle.vim
+- name: install plugins
+  command: vim +PluginInstall +qall

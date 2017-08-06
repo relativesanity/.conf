@@ -1,6 +1,19 @@
 set nocompatible
-filetype plugin indent on
+filetype off
 
+" ______ PLUGINS ______
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'kien/ctrlp.vim'
+
+call vundle#end()
+" _____________________
+
+if has('autocmd')
+  filetype plugin indent on
+endif
 if has('syntax') && !exists('g:syntax_on')
   syntax enable
 endif
