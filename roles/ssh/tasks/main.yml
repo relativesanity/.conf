@@ -2,5 +2,5 @@
 - name: ensure .ssh exists
   file: path=~/.ssh state=directory mode=0700
 - name: copy keys
-  copy: src={{ item }} dest=~/.ssh/
+  copy: src={{ item }} dest=~/.ssh/ mode=0600
   with_fileglob: 'id_rsa*'
