@@ -1,0 +1,5 @@
+---
+- name: install vim
+  homebrew: name=vim
+- name: configure vim
+  copy: src=vimrc dest=~/.vimrc

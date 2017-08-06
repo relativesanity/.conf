@@ -1,0 +1,15 @@
+set nocompatible
+filetype plugin indent on
+
+if has('syntax') && !exists('g:syntax_on')
+  syntax enable
+endif
+
+set autoindent
+set ruler
+set tabstop=2 shiftwidth=2 expandtab
+
+set number
+set hlsearch
+
+set noswapfile
