@@ -1,0 +1,5 @@
+---
+- name: install git
+  homebrew: name=git
+- name: copy git config
+  template: src=gitconfig dest=~/.gitconfig
