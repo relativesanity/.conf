@@ -15,6 +15,13 @@ else
   echo 'Ansible installed'
 fi
 
+if [[ "" == "$(command -v m)" ]]; then
+  echo 'Installing m-cli'
+  brew install m-cli
+else
+  echo 'm-cli installed'
+fi
+
 if [[ ! -e $HOME/.conf ]]; then
   echo 'Downloading config'
   git clone https://github.com/relativesanity/.conf $HOME/.conf
