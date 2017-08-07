@@ -4,3 +4,5 @@
 - name: copy keys
   copy: src={{ item }} dest=~/.ssh/ mode=0600
   with_fileglob: 'id_rsa*'
+- name: copy config
+  copy: src=config dest=~/.ssh/config mode=0600
