@@ -4,7 +4,3 @@
   with_items:
     - iterm2
     - mosh
-- name: install dev tools
-  homebrew: name={{ item }}
-  with_items:
-    - m-cli
