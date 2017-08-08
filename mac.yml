@@ -1,0 +1,9 @@
+---
+- hosts: all
+  tasks:
+    - name: install m-cli
+      homebrew: name=m-cli
+    - name: clear dock
+      command: m dock prune
+    - name: hide dock
+      command: m dock autohide YES
