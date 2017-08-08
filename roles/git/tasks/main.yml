@@ -10,6 +10,7 @@
   git_config:
     name: user.email
     scope: global
+    value: "{{ email_address }}"
 - name: configure git color
   git_config:
     name: color.ui

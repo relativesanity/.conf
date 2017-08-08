@@ -1,5 +1,5 @@
 ---
-- hosts: mirsky.local
+- hosts: all
   roles:
     - homebrew
     - git
