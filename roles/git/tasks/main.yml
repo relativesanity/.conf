@@ -15,3 +15,8 @@
     name: color.ui
     scope: global
     value: true
+- name: configure git editor
+  git_config:
+    name: core.editor
+    scope: global
+    value: /usr/bin/env vim
