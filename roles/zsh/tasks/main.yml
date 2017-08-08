@@ -1,0 +1,5 @@
+---
+- name: install zsh
+  homebrew: name=zsh
+- name: configure zsh
+  copy: src=zshrc dest=~/.zshrc
