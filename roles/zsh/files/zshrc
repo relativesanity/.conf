@@ -29,8 +29,8 @@ compinit
 alias be='bundle exec' 
 alias resource='. ~/.zshrc' 
 alias gs='git status' 
-alias config='cd ~/.config.d' 
-alias work='cd ~/dev' 
+alias config='cd ~/.conf'
+alias work='cd ~/dev'
 alias hack='cd ~/dev/hacks'
 alias doc='cd ~/dev/docs'
  
