@@ -8,3 +8,6 @@
     - zsh
     - tmux
     - dev
+- hosts: home
+  roles:
+    - cordova

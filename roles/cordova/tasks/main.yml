@@ -1,0 +1,5 @@
+---
+- name: install node
+  homebrew: name=node
+- name: install cordova
+  npm: name=cordova global=yes
