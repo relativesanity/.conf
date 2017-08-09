@@ -5,6 +5,10 @@
   copy: src=vimrc dest=~/.vimrc
 - name: create vim bundle directory
   file: path=~/.vim/bundle state=directory
+- name: support autocomplete
+  homebrew: name={{ item }}
+  with_items:
+    - cmake
 - name: install vundle
   git: repo=https://github.com/VundleVim/Vundle.vim.git dest=~/.vim/bundle/Vundle.vim
 - name: install plugins

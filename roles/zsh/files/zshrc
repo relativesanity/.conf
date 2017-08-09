@@ -37,3 +37,6 @@ alias doc='cd ~/dev/docs'
 # configure chruby to be available and auto-detecting 
 source /usr/local/opt/chruby/share/chruby/chruby.sh 
 source /usr/local/opt/chruby/share/chruby/auto.sh
+
+# ensure brew python is used if installed
+PATH="/usr/local/opt/python/libexec/bin:$PATH"

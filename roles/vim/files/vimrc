@@ -9,6 +9,11 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'kien/ctrlp.vim'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'vim-airline/vim-airline'
+Plugin 'scrooloose/nerdtree'
+Plugin 'Valloric/YouCompleteMe'
+" cd ~/.vim/bundle/YouCompleteMe
+" git submodule update --init --recursive
+" ./install.sh --clang-completer
 
 call vundle#end()
 " _____________________
@@ -28,3 +33,5 @@ set number
 set hlsearch
 
 set noswapfile
+
+map <C-k> :NERDTreeToggle<CR>
