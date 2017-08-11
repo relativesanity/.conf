@@ -1,3 +1,3 @@
 #!/bin/bash
 
-ansible-playbook --limit $HOSTNAME main.yml
+ansible-playbook --limit $HOSTNAME update.yml
