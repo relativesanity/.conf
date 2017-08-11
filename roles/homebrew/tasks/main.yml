@@ -3,3 +3,7 @@
   homebrew: update_homebrew=yes
 - name: tap brew services
   homebrew_tap: name=homebrew/services
+- name: tap brew versions
+  homebrew_tap: name=homebrew/versions
+- name: tap brew cask versions
+  homebrew_tap: name=caskroom/versions
