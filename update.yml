@@ -11,3 +11,4 @@
 - hosts: home
   roles:
     - cordova
+    - cloak
