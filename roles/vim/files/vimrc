@@ -16,6 +16,8 @@ Plugin 'Valloric/YouCompleteMe'
 " git submodule update --init --recursive
 " ./install.sh --clang-completer
 
+Plugin 'rakr/vim-two-firewatch'
+
 call vundle#end()
 " _____________________
 
@@ -25,6 +27,10 @@ endif
 if has('syntax') && !exists('g:syntax_on')
   syntax enable
 endif
+
+set background=dark
+colo two-firewatch
+let g:airline_theme='twofirewatch'
 
 set autoindent
 set ruler
