@@ -14,3 +14,6 @@
     - cloak
     - postgresql
     - backblaze
+- hosts: mirsky
+  roles:
+    - vmware
