@@ -1,3 +1,3 @@
 #!/bin/bash
 
-ansible-playbook --limit $HOSTNAME upgrade.yml
+ansible-playbook --limit `hostname` upgrade.yml
