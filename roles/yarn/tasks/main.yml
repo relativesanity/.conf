@@ -1,0 +1,3 @@
+---
+- name: install yarn
+  homebrew: name=yarn
