@@ -1,5 +1,7 @@
 ---
 - name: install tmux
   homebrew: name=tmux
+- name: configure launchctl compatibility
+  homebrew: name=reattach-to-user-namespace
 - name: configure tmux
   copy: src=tmux.conf dest=~/.tmux.conf

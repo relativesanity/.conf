@@ -15,6 +15,7 @@
     - postgresql
     - backblaze
     - yarn
+    - imagemagick
 - hosts: mirsky
   roles:
     - vmware
