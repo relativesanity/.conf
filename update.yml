@@ -18,3 +18,4 @@
 - hosts: mirsky
   roles:
     - vmware
+    - duet
