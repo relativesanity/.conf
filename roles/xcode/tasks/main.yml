@@ -1,0 +1,11 @@
+---
+- name: install mas
+  homebrew: name={{ item }}
+  with_items:
+    - mas
+    - reattach-to-user-namespace
+- name: install Xcode
+  command: reattach-to-user-namespace mas install 497799835
+- name: configure Xcode
+  command: xcode-select -switch /Applications/Xcode.app/Contents/Developer
+  become: true

@@ -1,0 +1,22 @@
+---
+- name: freeagent requirements
+  homebrew: name={{ item }}
+  with_items:
+    - automake
+    - chruby
+    - ghostscript
+    - git
+    - imagemagick
+    - libxml2
+    - node
+    - qt@5.5
+    - ruby-install
+    - yarn
+    - v8@3.15
+    - mariadb-connector-c
+- name: ensure QT is linked
+  command: brew link --force qt55
+- name: install rubies
+  command: ruby-install --no-reinstall {{ item }}
+  with_items:
+    - ruby 2.3.1

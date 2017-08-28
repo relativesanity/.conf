@@ -8,6 +8,10 @@
     - zsh
     - tmux
     - dev
+- hosts: freeagent
+  roles:
+    - xcode
+    - freeagent
 - hosts: home
   roles:
     - cordova
