@@ -1,3 +1,3 @@
 #!/bin/bash
 
-ansible-playbook --limit `hostname` --ask-become-pass update.yml
+ansible-playbook --limit `hostname` update.yml
