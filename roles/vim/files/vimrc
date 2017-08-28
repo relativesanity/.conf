@@ -12,6 +12,7 @@ Plugin 'terryma/vim-multiple-cursors'
 Plugin 'vim-airline/vim-airline'
 Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-ragtag'
+Plugin 'zanglg/nova.vim'
 Plugin 'Valloric/YouCompleteMe'
 " cd ~/.vim/bundle/YouCompleteMe
 " git submodule update --init --recursive
@@ -26,6 +27,9 @@ endif
 if has('syntax') && !exists('g:syntax_on')
   syntax enable
 endif
+
+set termguicolors
+colorscheme nova
 
 set autoindent
 set ruler
