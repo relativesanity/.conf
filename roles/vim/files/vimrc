@@ -32,6 +32,7 @@ set termguicolors
 colorscheme nova
 
 let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts = 1
 
 set autoindent
 set ruler
