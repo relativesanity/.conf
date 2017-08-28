@@ -31,6 +31,8 @@ endif
 set termguicolors
 colorscheme nova
 
+let g:airline#extensions#tabline#enabled = 1
+
 set autoindent
 set ruler
 set tabstop=2 shiftwidth=2 expandtab
