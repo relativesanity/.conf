@@ -9,6 +9,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'kien/ctrlp.vim'
 Plugin 'terryma/vim-multiple-cursors'
+Plugin 'dracula/vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-ragtag'
@@ -29,10 +30,13 @@ if has('syntax') && !exists('g:syntax_on')
 endif
 
 set termguicolors
-colorscheme nova
+" colorscheme nova
+colorscheme dracula
 
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
+let NERDTreeMinimalUI = 1
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|bower_components\|.sass-cache\|.git\|build'
 
 set autoindent
 set ruler
