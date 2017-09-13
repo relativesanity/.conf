@@ -20,6 +20,7 @@
     - backblaze
     - yarn
     - imagemagick
+    - heroku
 - hosts: mirsky
   roles:
     - vmware
