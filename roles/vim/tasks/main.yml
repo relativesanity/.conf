@@ -1,6 +1,6 @@
 ---
 - name: install vim
-  homebrew: name=vim
+  homebrew: name=vim options=with-python3
 - name: configure vim
   copy: src=vimrc dest=~/.vimrc
 - name: create vim bundle directory
