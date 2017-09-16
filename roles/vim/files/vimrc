@@ -34,8 +34,7 @@ if executable('ag')
 endif
 
 set termguicolors
-" colorscheme nova
-colorscheme dracula
+colorscheme nova
 
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
