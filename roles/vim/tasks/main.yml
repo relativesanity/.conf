@@ -12,4 +12,4 @@
 - name: install vundle
   git: repo=https://github.com/VundleVim/Vundle.vim.git dest=~/.vim/bundle/Vundle.vim
 - name: install plugins
-  command: vim +PluginInstall +qall
+  command: vim +PluginInstall +qall --noplugin

@@ -8,6 +8,7 @@
     - zsh
     - tmux
     - dev
+    - ack
 - hosts: freeagent
   roles:
     - xcode
