@@ -14,6 +14,7 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-ragtag'
 Plugin 'zanglg/nova.vim'
+Plugin 'mileszs/ack.vim'
 Plugin 'Valloric/YouCompleteMe'
 " cd ~/.vim/bundle/YouCompleteMe
 " git submodule update --init --recursive
@@ -27,6 +28,9 @@ if has('autocmd')
 endif
 if has('syntax') && !exists('g:syntax_on')
   syntax enable
+endif
+if executable('ag')
+  let g:ackprg = 'ag --vimgrep'
 endif
 
 set termguicolors
