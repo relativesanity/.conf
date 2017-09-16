@@ -42,6 +42,10 @@ set autoindent
 set ruler
 set tabstop=2 shiftwidth=2 expandtab
 
+" highlight tabs and trailing spaces
+set listchars=tab:>-,trail:-
+set list
+
 set number
 set hlsearch
 
