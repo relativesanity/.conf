@@ -1,0 +1,12 @@
+---
+- name: install neovim
+  homebrew: name=neovim
+- name: ensure config directory exists
+  file: path={{ item }} state=directory
+  with_items:
+    - ~/.config
+    - ~/.config/nvim
+- name: configure neovim
+  file: src=init.vim dest=~/.config/nvim/init.vim
+- name: install plugins
+  command: nvim +PluginInstall +qall --noplugin
