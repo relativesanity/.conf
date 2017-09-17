@@ -30,7 +30,13 @@ alias be='bundle exec'
 alias resource='. ~/.zshrc' 
 alias gs='git status' 
 alias config='cd ~/.conf'
-alias work='cd ~/dev'
+function work() {
+  if [ -z $1 ]; then
+    cd ~/dev
+  else
+    cd `ls -dt1 ~/dev/${1}* | head -n1`
+  fi
+}
 alias hack='cd ~/dev/hacks'
 alias doc='cd ~/dev/docs'
  
