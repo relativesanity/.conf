@@ -1,0 +1,3 @@
+---
+- name: configure bash
+  copy: src=bash_profile dest=~/.bash_profile
