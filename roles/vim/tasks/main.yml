@@ -4,7 +4,10 @@
 - name: configure vim
   copy: src=vimrc dest=~/.vimrc
 - name: create vim bundle directory
-  file: path=~/.vim/bundle state=directory
+  file: path={{ item }} state=directory
+  with_items:
+    - ~/.vim
+    - ~/.vim/bundle
 - name: support autocomplete
   homebrew: name={{ item }}
   with_items:
