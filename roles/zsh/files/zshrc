@@ -30,15 +30,16 @@ alias be='bundle exec'
 alias resource='. ~/.zshrc' 
 alias gs='git status' 
 alias config='cd ~/.conf'
-function work() {
+function work() { jump $1 dev }
+function hack() { jump $1 dev/hacks }
+function doc() { jump $1 dev/docs }
+function jump() {
   if [ -z $1 ]; then
-    cd ~/dev
+    cd ~/${2}
   else
-    cd `ls -dt1 ~/dev/${1}* | head -n1`
+    cd `ls -dt1 ~/${2}/${1}* | head -n1`
   fi
 }
-alias hack='cd ~/dev/hacks'
-alias doc='cd ~/dev/docs'
  
 # configure chruby to be available and auto-detecting 
 source /usr/local/opt/chruby/share/chruby/chruby.sh 
