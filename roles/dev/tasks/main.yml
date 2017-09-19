@@ -4,3 +4,5 @@
   with_items:
     - iterm2
     - ngrok
+- name: set up dev directory
+  file: name=~/dev state=directory
