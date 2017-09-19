@@ -12,7 +12,6 @@
     - ag
 - hosts: freeagent
   roles:
-    - xcode
     - freeagent
 - hosts: home
   roles:
