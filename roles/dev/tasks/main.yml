@@ -3,5 +3,4 @@
   homebrew_cask: name={{ item }}
   with_items:
     - iterm2
-    - firefoxdeveloperedition
     - ngrok
