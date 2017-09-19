@@ -16,7 +16,7 @@
 - hosts: home
   roles:
     - cordova
-    - cloak
+    - encryptme
     - postgresql
     - backblaze
     - yarn

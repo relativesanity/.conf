@@ -1,0 +1,3 @@
+---
+- name: install encrypt.me
+  homebrew_cask: name=encryptme
