@@ -1,0 +1,3 @@
+---
+- name: install basecamp app
+  homebrew_cask: name=basecamp
