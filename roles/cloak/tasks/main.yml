@@ -1,3 +1,0 @@
----
-- name: install cloak
-  homebrew_cask: name=cloak

@@ -3,5 +3,6 @@
   homebrew_cask: name={{ item }}
   with_items:
     - iterm2
-    - firefoxdeveloperedition
     - ngrok
+- name: set up dev directory
+  file: name=~/dev state=directory

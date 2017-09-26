@@ -17,7 +17,7 @@ fi
 
 if [[ ! -e $HOME/.conf ]]; then
   echo 'Downloading config'
-  git clone git@github.com:relativesanity/.conf $HOME/.conf
+  git clone https://github.com/relativesanity/.conf $HOME/.conf
 else
   echo 'Config downloaded'
 fi

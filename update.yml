@@ -12,12 +12,11 @@
     - ag
 - hosts: freeagent
   roles:
-    - xcode
     - freeagent
 - hosts: home
   roles:
     - cordova
-    - cloak
+    - encryptme
     - postgresql
     - backblaze
     - yarn
