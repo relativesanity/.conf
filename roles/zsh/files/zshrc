@@ -3,6 +3,9 @@ bindkey -e
  
 # set editor to vim 
 export EDITOR=vim 
+
+# set architecture flags
+export ARCHFLAGS="-arch x86_64"
  
 # set command prompt 
 source "/usr/local/opt/zsh-git-prompt/zshrc.sh" 
