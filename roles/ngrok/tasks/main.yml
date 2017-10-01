@@ -1,0 +1,7 @@
+---
+- name: install ngrok
+  homebrew_cask: name=ngrok
+- name: ensure .ngrok directory exists
+  file: path=~/.ngrok2 state=directory mode=0700
+- name: copy config
+  copy: src=ngrok.yml dest=~/.ngrok2/ngrok.yml mode=0600
