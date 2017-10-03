@@ -4,6 +4,8 @@
   with_items:
     - chruby
     - ruby-install
+- name: update ruby-install
+  command: ruby-install -L
 - name: install rubies
   command: ruby-install --no-reinstall {{ item }}
   with_items:
