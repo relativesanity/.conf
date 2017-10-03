@@ -13,6 +13,7 @@
 - hosts: freeagent
   roles:
     - freeagent
+    - postgresql
 - hosts: home
   roles:
     - cordova
