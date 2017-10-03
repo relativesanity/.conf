@@ -23,6 +23,10 @@
     - yarn
     - imagemagick
     - heroku
+    - transporter
+- hosts: fun
+  roles:
+    - steam
 - hosts: mirsky
   roles:
     - vmware
