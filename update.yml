@@ -24,11 +24,9 @@
     - imagemagick
     - heroku
     - transporter
-- hosts: fun
-  roles:
-    - steam
-- hosts: mirsky
-  roles:
     - vmware
     - duet
     - basecamp
+- hosts: fun
+  roles:
+    - steam
