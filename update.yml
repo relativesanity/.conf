@@ -27,6 +27,7 @@
     - vmware
     - duet
     - basecamp
+    - sketch
 - hosts: fun
   roles:
     - steam

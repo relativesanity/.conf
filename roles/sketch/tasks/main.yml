@@ -1,0 +1,3 @@
+---
+- name: install sketch
+  homebrew_cask: name=sketch
