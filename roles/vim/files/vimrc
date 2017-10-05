@@ -17,6 +17,7 @@ Plugin 'zanglg/nova.vim'
 Plugin 'mileszs/ack.vim'
 Plugin 'Shougo/denite.nvim'
 Plugin 'tpope/vim-commentary'
+Plugin 'vim-ruby/vim-ruby'
 Plugin 'Valloric/YouCompleteMe'
 " cd ~/.vim/bundle/YouCompleteMe
 " git submodule update --init --recursive
