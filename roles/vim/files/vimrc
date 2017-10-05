@@ -42,7 +42,7 @@ colorscheme nova
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
 let NERDTreeMinimalUI = 1
-let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|bower_components\|.sass-cache\|.git\|build'
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|bower_components\|.sass-cache\|.git\|build\|log\|tmp'
 
 set autoindent
 set ruler
