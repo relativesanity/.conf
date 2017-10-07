@@ -28,6 +28,7 @@
     - duet
     - basecamp
     - sketch
+    - microsoft-office
 - hosts: fun
   roles:
     - steam

@@ -1,0 +1,3 @@
+---
+- name: install microsoft office
+  homebrew_cask: name=microsoft-office
