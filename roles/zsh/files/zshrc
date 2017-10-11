@@ -36,6 +36,7 @@ alias config='cd ~/.conf'
 function work() { jump $1 dev }
 function hack() { jump $1 dev/hacks }
 function doc() { jump $1 dev/docs }
+function hiring() { jump $1 dev/hiring }
 function jump() {
   if [ -z $1 ]; then
     cd ~/${2}
