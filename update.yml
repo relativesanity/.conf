@@ -14,6 +14,9 @@
   roles:
     - freeagent
     - postgresql
+- hosts: hiring
+  roles:
+    - redis
 - hosts: home
   roles:
     - cordova
