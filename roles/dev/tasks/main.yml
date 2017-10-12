@@ -10,4 +10,6 @@
   with_items:
     - ~/dev
     - ~/dev/hacks
+    - ~/dev/docs
+    - ~/dev/hiring
     - ~/dev/archive
