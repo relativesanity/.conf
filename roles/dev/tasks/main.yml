@@ -5,6 +5,8 @@
     - iterm2
     - firefoxdeveloperedition
     - ngrok
+    - firefox-beta
+    - google-chrome
 - name: set up dev directories
   file: name={{ item }} state=directory
   with_items:
