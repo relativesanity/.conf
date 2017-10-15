@@ -14,8 +14,8 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-ragtag'
 Plugin 'zanglg/nova.vim'
+Plugin 'cocopon/iceberg.vim'
 Plugin 'mileszs/ack.vim'
-Plugin 'Shougo/denite.nvim'
 Plugin 'tpope/vim-commentary'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'Valloric/YouCompleteMe'
@@ -37,7 +37,7 @@ if executable('ag')
 endif
 
 set termguicolors
-colorscheme nova
+colorscheme iceberg
 
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
