@@ -9,7 +9,6 @@ Plugin 'VundleVim/Vundle.vim' " allow Vundle to manage Vundle
 
 Plugin 'ctrlpvim/ctrlp.vim' " install CtrlP for fuzzy filename navigation
 Plugin 'scrooloose/nerdtree' " install NERDTree for directory navigation
-Plugin 'christoomey/vim-tmux-navigator' " install tmux navigator for seamless window navigation
 Plugin 'vim-airline/vim-airline' " install Airline for better status UI
 Plugin 'cocopon/iceberg.vim' " install iceberg colorscheme
 
