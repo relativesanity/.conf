@@ -4,6 +4,7 @@
     - homebrew
     - git
     - vim
+    - neovim
     - ruby
     - libxml2
     - bash

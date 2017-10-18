@@ -7,6 +7,11 @@
     - ~/.config
     - ~/.config/nvim
 - name: configure neovim
-  file: src=init.vim dest=~/.config/nvim/init.vim
-- name: install plugins
-  command: nvim +PluginInstall +qall --noplugin
+  copy: src=init.vim dest=~/.config/nvim/init.vim
+- name: create vim bundle directory
+  file: path={{ item }} state=directory
+  with_items:
+    - ~/.vim
+      ~/.vim/bundle
+- name: install vundle
+  git: repo=https://github.com/VundleVim/Vundle.vim.git dest=~/.vim/bundle/Vundle.vim
