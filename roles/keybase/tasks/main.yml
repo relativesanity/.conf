@@ -1,0 +1,3 @@
+---
+- name: install keybase
+  homebrew_cask: name=keybase
