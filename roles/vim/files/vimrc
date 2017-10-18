@@ -45,8 +45,7 @@ let NERDTreeMinimalUI = 1
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|bower_components\|.sass-cache\|.git\|build\|log\|tmp'
 
 set autoindent
-set foldmethod=syntax
-set foldlevelstart=30
+set foldmethod=syntax foldlevelstart=30
 set ruler
 set tabstop=2 shiftwidth=2 expandtab
 set cursorline
