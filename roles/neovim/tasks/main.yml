@@ -1,6 +1,10 @@
 ---
 - name: install neovim
   homebrew: name=neovim
+- name: install python3
+  homebrew: name=python3
+- name: ensure neovim has python access
+  command: pip3 install neovim
 - name: ensure config directory exists
   file: path={{ item }} state=directory
   with_items:
