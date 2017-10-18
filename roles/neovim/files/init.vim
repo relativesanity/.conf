@@ -53,4 +53,4 @@ set hlsearch " highlight the results of the last search
 set noswapfile " disable saving of swapfiles
 
 " defines handy key commands
-map <C-k> :NERDTreeToggle<CR>
+nmap <LEADER>k :NERDTreeToggle<CR>
