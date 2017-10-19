@@ -30,6 +30,8 @@ Plugin 'Shougo/deoplete.nvim'
 Plugin 'tpope/vim-commentary'
 " install ragtag for markup shortcuts
 Plugin 'tpope/vim-ragtag'
+" install trailing whitespace to highlight trailing whitespace
+Plugin 'bronson/vim-trailing-whitespace'
 
 " finish Vundle operations
 call vundle#end()
