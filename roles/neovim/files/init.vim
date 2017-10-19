@@ -97,5 +97,6 @@ set hlsearch
 " disable saving of swapfiles
 set noswapfile
 
-" defines handy key commands
+" ______ Handy Key Commands ______
+" NERDTree show and hide
 nmap <LEADER>k :NERDTreeToggle<CR>
