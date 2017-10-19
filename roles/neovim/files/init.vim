@@ -32,6 +32,8 @@ Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-ragtag'
 " install trailing whitespace to highlight trailing whitespace
 Plugin 'bronson/vim-trailing-whitespace'
+" install test runner
+Plugin 'janko-m/vim-test'
 
 " finish Vundle operations
 call vundle#end()
@@ -114,3 +116,9 @@ set noswapfile
 nmap <LEADER>k :NERDTreeToggle<CR>
 " Search and Replace
 nmap <Leader>s :%s//g<Left><Left>
+" test runner keyboard shortcuts
+nmap <silent> <leader>t :TestNearest<CR>
+nmap <silent> <leader>T :TestFile<CR>
+nmap <silent> <leader>a :TestSuite<CR>
+nmap <silent> <leader>l :TestLast<CR>
+nmap <silent> <leader>g :TestVisit<CR>
