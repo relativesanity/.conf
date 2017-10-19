@@ -100,3 +100,5 @@ set noswapfile
 " ______ Handy Key Commands ______
 " NERDTree show and hide
 nmap <LEADER>k :NERDTreeToggle<CR>
+" Search and Replace
+nmap <Leader>s :%s//g<Left><Left>
