@@ -44,6 +44,7 @@ set foldmethod=syntax foldlevelstart=30 " configures folding
 set tabstop=2 shiftwidth=2 expandtab " configures tabs
 set cursorline " highlight line containing cursor
 set completeopt+=noinsert " allows autocompletion to select the first option by default
+set colorcolumn=100 " highlight 100th column
 
 set listchars=tab:>-,trail:- " defines tab and trailing space indicators
 set list " displays hidden characters such as spaces and tabs
