@@ -79,6 +79,18 @@ set foldmethod=syntax foldlevelstart=30
 set tabstop=2 shiftwidth=2 expandtab
 " highlight line containing cursor
 set cursorline
+" Horizontal split below current.
+set splitbelow
+" Vertical split to right of current.
+set splitright
+" Make searching case insensitive
+set ignorecase
+" ... unless the query has capital letters.
+set smartcase
+" Use 'g' flag by default with :s/foo/bar/.
+set gdefault
+" Use 'magic' patterns (extended regular expressions).
+set magic
 
 " allows autocompletion to select the first option by default
 set completeopt+=noinsert
