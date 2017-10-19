@@ -66,6 +66,8 @@ let NERDTreeMinimalUI=1
 let g:ctrlp_custom_ignore='node_modules\|DS_Store\|bower_components\|.sass-cache\|.git\|build\|log\|tmp'
 " enable deoplete
 let g:deoplete#enable_at_startup = 1
+" allow tab to choose and inject deoplete options
+inoremap <expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
 
 " follows indent of previous line when creating a new line
 set autoindent
