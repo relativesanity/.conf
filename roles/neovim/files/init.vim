@@ -1,57 +1,97 @@
-set encoding=utf-8 " set encoding
-set nocompatible " ensure nocompatible is set, regardless of where this is loaded from
-filetype off " disable filetype detection before running Vundle
+" set encoding
+set encoding=utf-8 
+" ensure nocompatible is set, regardless of where this is loaded from
+set nocompatible 
+" disable filetype detection before running Vundle
+filetype off 
 
 " ______ PLUGINS ______
-set rtp+=~/.vim/bundle/Vundle.vim " include Vundle bundle in realtime path
-call vundle#begin() " begin Vundle operations
-Plugin 'VundleVim/Vundle.vim' " allow Vundle to manage Vundle
+" include Vundle bundle in realtime path
+set rtp+=~/.vim/bundle/Vundle.vim 
+" begin Vundle operations
+call vundle#begin() 
+" allow Vundle to manage Vundle
+Plugin 'VundleVim/Vundle.vim' 
 
-Plugin 'ctrlpvim/ctrlp.vim' " install CtrlP for fuzzy filename navigation
-Plugin 'scrooloose/nerdtree' " install NERDTree for directory navigation
-Plugin 'vim-airline/vim-airline' " install Airline for better status UI
-Plugin 'cocopon/iceberg.vim' " install iceberg colorscheme
+" install CtrlP for fuzzy filename navigation
+Plugin 'ctrlpvim/ctrlp.vim' 
+" install NERDTree for directory navigation
+Plugin 'scrooloose/nerdtree' 
+" install Airline for better status UI
+Plugin 'vim-airline/vim-airline' 
+" install iceberg colorscheme
+Plugin 'cocopon/iceberg.vim' 
 
-Plugin 'mileszs/ack.vim' " install Ack for smarter file searching
-Plugin 'Shougo/deoplete.nvim' " install Deoplete for autocompletion
-Plugin 'tpope/vim-commentary' " install Commentary for commenting code
-Plugin 'tpope/vim-ragtag' " install ragtag for markup shortcuts
+" install Ack for smarter file searching
+Plugin 'mileszs/ack.vim' 
+" install Deoplete for autocompletion
+Plugin 'Shougo/deoplete.nvim' 
+" install Commentary for commenting code
+Plugin 'tpope/vim-commentary' 
+" install ragtag for markup shortcuts
+Plugin 'tpope/vim-ragtag' 
 
-call vundle#end() " finish Vundle operations
+" finish Vundle operations
+call vundle#end() 
 " ---------------------
 
-filetype plugin indent on " enable filetype detection after running Vundle to allow new types to be picked up
+" enable filetype detection after running Vundle to allow new types to be picked up
+filetype plugin indent on 
 
-if !exists('g:syntax_on') " unless syntax highlighting is already enabled…
-  syntax enable " enable syntax highlighting
+" unless syntax highlighting is already enabled…
+if !exists('g:syntax_on') 
+  " enable syntax highlighting
+  syntax enable 
 endif
-if executable('ag') " if ag is available on the system…
-  let g:ackprg = 'ag --vimgrep' " configure Ack to use ag
+" if ag is available on the system…
+if executable('ag') 
+  " configure Ack to use ag
+  let g:ackprg = 'ag --vimgrep' 
 endif
 
-set termguicolors " enables 24-bit color
-colorscheme iceberg " chooses colorscheme
+" enables 24-bit color
+set termguicolors 
+" chooses colorscheme
+colorscheme iceberg 
 
-let g:airline#extensions#tabline#enabled=1 " enables tabline for airline
-let g:airline_powerline_fonts=1 " uses powerline for airline
-let NERDTreeMinimalUI=1 " gets rid of extraneous crap in NERDTree UI
-let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|bower_components\|.sass-cache\|.git\|build\|log\|tmp' " ignore some directories in CTRL-P
-let g:deoplete#enable_at_startup = 1 " enable deoplete
+" enables tabline for airline
+let g:airline#extensions#tabline#enabled=1 
+" uses powerline for airline
+let g:airline_powerline_fonts=1 
+" gets rid of extraneous crap in NERDTree UI
+let NERDTreeMinimalUI=1 
+" ignore some directories in CTRL-P
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|bower_components\|.sass-cache\|.git\|build\|log\|tmp' 
+" enable deoplete
+let g:deoplete#enable_at_startup = 1 
 
-set autoindent " follows indent of previous line when creating a new line
-set smartindent " follows language-specific indenting rules when creating a new line
-set foldmethod=syntax foldlevelstart=30 " configures folding
-set tabstop=2 shiftwidth=2 expandtab " configures tabs
-set cursorline " highlight line containing cursor
-set completeopt+=noinsert " allows autocompletion to select the first option by default
-set colorcolumn=100 " highlight 100th column
+" follows indent of previous line when creating a new line
+set autoindent 
+" follows language-specific indenting rules when creating a new line
+set smartindent 
+" configures folding
+set foldmethod=syntax foldlevelstart=30 
+" configures tabs
+set tabstop=2 shiftwidth=2 expandtab 
+" highlight line containing cursor
+set cursorline 
 
-set listchars=tab:>-,trail:- " defines tab and trailing space indicators
-set list " displays hidden characters such as spaces and tabs
+" allows autocompletion to select the first option by default
+set completeopt+=noinsert 
+" highlight 100th column
+set colorcolumn=100 
 
-set number " show line numbers
-set hlsearch " highlight the results of the last search
-set noswapfile " disable saving of swapfiles
+" defines tab and trailing space indicators
+set listchars=tab:>-,trail:- 
+" displays hidden characters such as spaces and tabs
+set list 
+
+" show line numbers
+set number 
+" highlight the results of the last search
+set hlsearch 
+" disable saving of swapfiles
+set noswapfile 
 
 " defines handy key commands
 nmap <LEADER>k :NERDTreeToggle<CR>
