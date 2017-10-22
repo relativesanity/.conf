@@ -12,6 +12,7 @@
     - tmux
     - dev
     - ag
+    - ctags
 - hosts: freeagent
   roles:
     - freeagent
