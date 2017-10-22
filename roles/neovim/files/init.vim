@@ -34,7 +34,9 @@ Plugin 'mileszs/ack.vim'
 Plugin 'bronson/vim-trailing-whitespace'
 " " install test runner
 " Plugin 'janko-m/vim-test'
-"
+" install SCSS syntax
+Plugin 'cakebaker/scss-syntax.vim'
+
 " finish Vundle operations
 call vundle#end()
 " ---------------------
