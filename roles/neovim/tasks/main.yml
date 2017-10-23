@@ -11,7 +11,7 @@
     - ~/.config
     - ~/.config/nvim
 - name: configure neovim
-  copy: src=init.vim dest=~/.config/nvim/init.vim
+  copy: src=../vim/files/vimrc dest=~/.config/nvim/init.vim
 - name: create vim bundle directory
   file: path={{ item }} state=directory
   with_items:

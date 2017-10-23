@@ -3,7 +3,6 @@
   roles:
     - homebrew
     - git
-    - vim
     - neovim
     - ruby
     - libxml2
