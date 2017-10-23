@@ -1,5 +1,5 @@
-# set emacs movement keys
-bindkey -e
+# set vi movement keys
+bindkey -v
 
 # set editor to vim
 export EDITOR=vim
