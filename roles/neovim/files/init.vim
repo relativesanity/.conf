@@ -13,27 +13,14 @@ call vundle#begin()
 " allow Vundle to manage Vundle
 Plugin 'VundleVim/Vundle.vim'
 
-" " install CtrlP for fuzzy filename navigation
-" Plugin 'ctrlpvim/ctrlp.vim'
-" " install NERDTree for directory navigation
-" Plugin 'scrooloose/nerdtree'
-" " install Airline for better status UI
-" Plugin 'vim-airline/vim-airline'
 " install iceberg colorscheme
 Plugin 'cocopon/iceberg.vim'
 
 " install Ack for smarter file searching
 Plugin 'mileszs/ack.vim'
-" " install Deoplete for autocompletion
-" Plugin 'Shougo/deoplete.nvim'
-" " install Commentary for commenting code
-" Plugin 'tpope/vim-commentary'
-" " install ragtag for markup shortcuts
-" Plugin 'tpope/vim-ragtag'
 " install trailing whitespace to highlight trailing whitespace
 Plugin 'bronson/vim-trailing-whitespace'
-" " install test runner
-" Plugin 'janko-m/vim-test'
+
 " install SCSS syntax
 Plugin 'cakebaker/scss-syntax.vim'
 
@@ -60,19 +47,6 @@ set termguicolors
 " chooses colorscheme
 colorscheme iceberg
 
-" " enables tabline for airline
-" let g:airline#extensions#tabline#enabled=1
-" " uses powerline for airline
-" let g:airline_powerline_fonts=1
-" " gets rid of extraneous crap in NERDTree UI
-" let NERDTreeMinimalUI=1
-" " ignore some directories in CTRL-P
-" let g:ctrlp_custom_ignore='node_modules\|DS_Store\|bower_components\|.sass-cache\|.git\|build\|log\|tmp'
-" " enable deoplete
-" let g:deoplete#enable_at_startup = 1
-" " allow tab to choose and inject deoplete options
-" inoremap <expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
-
 " follows indent of previous line when creating a new line
 set autoindent
 " follows language-specific indenting rules when creating a new line
@@ -95,11 +69,8 @@ set smartcase
 set gdefault
 " Use 'magic' patterns (extended regular expressions).
 set magic
-
-" " allows autocompletion to select the first option by default
-" set completeopt+=noinsert
-" " highlight 100th column
-" set colorcolumn=100
+" highlight 100th column
+set colorcolumn=100
 
 " defines tab and trailing space indicators
 set listchars=tab:>-,trail:-
@@ -114,15 +85,3 @@ set hlsearch
 set noswapfile
 " allow find to recursively search directories
 set path+=**
-
-" " ______ Handy Key Commands ______
-" " NERDTree show and hide
-" nmap <LEADER>k :NERDTreeToggle<CR>
-" " Search and Replace
-" nmap <Leader>s :%s//g<Left><Left>
-" " test runner keyboard shortcuts
-" nmap <silent> <leader>t :TestNearest<CR>
-" nmap <silent> <leader>T :TestFile<CR>
-" nmap <silent> <leader>a :TestSuite<CR>
-" nmap <silent> <leader>l :TestLast<CR>
-" nmap <silent> <leader>g :TestVisit<CR>
