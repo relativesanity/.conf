@@ -13,10 +13,8 @@ call vundle#begin()
 " allow Vundle to manage Vundle
 Plugin 'VundleVim/Vundle.vim'
 
-" install iceberg colorscheme
-Plugin 'cocopon/iceberg.vim'
-" install seagrey colorscheme
-Plugin 'nightsense/seagrey'
+" install base16 colors
+Plugin 'chriskempson/base16-vim'
 
 " install Ack for smarter file searching
 Plugin 'mileszs/ack.vim'
@@ -46,8 +44,10 @@ endif
 
 " enables 24-bit color
 set termguicolors
+" Access colors present in 256 colorspace
+let base16colorspace=256
 " chooses colorscheme
-colorscheme seagrey-dark
+colorscheme base16-ocean
 
 " follows indent of previous line when creating a new line
 set autoindent
