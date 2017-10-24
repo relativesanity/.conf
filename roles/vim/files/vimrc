@@ -13,6 +13,9 @@ call vundle#begin()
 " allow Vundle to manage Vundle
 Plugin 'VundleVim/Vundle.vim'
 
+" install iceberg colorscheme
+Plugin 'cocopon/iceberg.vim'
+
 " install Ack for smarter file searching
 Plugin 'mileszs/ack.vim'
 " install trailing whitespace to highlight trailing whitespace
@@ -41,6 +44,8 @@ endif
 
 " enables 24-bit color
 set termguicolors
+" chooses colorscheme
+colorscheme iceberg
 
 " follows indent of previous line when creating a new line
 set autoindent
