@@ -15,6 +15,8 @@ Plugin 'VundleVim/Vundle.vim'
 
 " install iceberg colorscheme
 Plugin 'cocopon/iceberg.vim'
+" install seagrey colorscheme
+Plugin 'nightsense/seagrey'
 
 " install Ack for smarter file searching
 Plugin 'mileszs/ack.vim'
@@ -45,7 +47,7 @@ endif
 " enables 24-bit color
 set termguicolors
 " chooses colorscheme
-colorscheme iceberg
+colorscheme seagrey-dark
 
 " follows indent of previous line when creating a new line
 set autoindent
