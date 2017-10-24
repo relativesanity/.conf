@@ -1,0 +1,3 @@
+---
+- name: install superduper
+  homebrew_cask: name=superduper

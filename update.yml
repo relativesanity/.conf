@@ -25,6 +25,7 @@
     - encryptme
     - postgresql
     - backblaze
+    - superduper
     - yarn
     - imagemagick
     - heroku
