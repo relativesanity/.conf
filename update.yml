@@ -34,7 +34,6 @@
     - duet
     - basecamp
     - sketch
-    - microsoft-office
     - keybase
 - hosts: fun
   roles:
