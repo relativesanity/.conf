@@ -1,8 +1,8 @@
 # set vi movement keys
 bindkey -v
 
-# set editor to vim
-export EDITOR=vim
+# set editor to nvim
+export EDITOR=nvim
 
 # set architecture flags
 export ARCHFLAGS="-arch x86_64"
