@@ -30,6 +30,7 @@
     - imagemagick
     - heroku
     - transporter
+    - dropbox
     - vmware
     - duet
     - basecamp
