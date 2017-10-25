@@ -23,6 +23,8 @@ Plugin 'bronson/vim-trailing-whitespace'
 
 " install SCSS syntax
 Plugin 'cakebaker/scss-syntax.vim'
+" install Rails support
+Plugin 'tpope/vim-rails'
 
 " finish Vundle operations
 call vundle#end()
