@@ -23,6 +23,9 @@ Plugin 'bronson/vim-trailing-whitespace'
 
 " install SCSS syntax
 Plugin 'cakebaker/scss-syntax.vim'
+" install Ansible syntax
+Plugin 'pearofducks/ansible-vim'
+
 " install Dispatch for async tasks
 Plugin 'tpope/vim-dispatch'
 " install Rails support
