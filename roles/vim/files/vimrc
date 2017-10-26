@@ -94,6 +94,8 @@ set list
 set number
 " highlight the results of the last search
 set hlsearch
+" run substitutions incrementally
+set inccommand=nosplit
 " disable saving of swapfiles
 set noswapfile
 " allow find to recursively search directories
