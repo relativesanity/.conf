@@ -54,7 +54,7 @@ endif
 let g:ctrlp_show_hidden = 1 " show hidden files
 " exclude certain directories, files etc
 let g:ctrlp_custom_ignore = {
-  \ 'dir':  '\v[\/](node_modules|\.git)$',
+  \ 'dir':  '\v[\/](node_modules|\.git|tmp|log)$',
   \ }
 
 " enables 24-bit color
