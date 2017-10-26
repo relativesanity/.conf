@@ -3,6 +3,7 @@ bindkey -v
 
 # set editor to nvim
 export EDITOR=nvim
+export VISUAL=nvim
 
 # set architecture flags
 export ARCHFLAGS="-arch x86_64"
