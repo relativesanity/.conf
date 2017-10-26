@@ -30,8 +30,6 @@ Plugin 'pearofducks/ansible-vim'
 " install Puppet syntax
 Plugin 'rodjek/vim-puppet'
 
-" install Dispatch for async tasks
-Plugin 'tpope/vim-dispatch'
 " install Rails support
 Plugin 'tpope/vim-rails'
 
