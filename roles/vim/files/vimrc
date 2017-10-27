@@ -22,6 +22,8 @@ Plugin 'mileszs/ack.vim'
 Plugin 'bronson/vim-trailing-whitespace'
 " install ctrlp for fuzzy file finding
 Plugin 'ctrlpvim/ctrlp.vim'
+" install surround for paren and HTML management
+Plugin 'tpope/vim-surround'
 
 " install SCSS syntax
 Plugin 'cakebaker/scss-syntax.vim'
