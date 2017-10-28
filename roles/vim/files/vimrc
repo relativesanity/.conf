@@ -26,6 +26,8 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'tpope/vim-surround'
 " install ragtag for HTML tag completion
 Plugin 'tpope/vim-ragtag'
+" install commentary for quick commenting
+Plugin 'tpope/vim-commentary'
 
 " install SCSS syntax
 Plugin 'cakebaker/scss-syntax.vim'
