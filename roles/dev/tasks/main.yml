@@ -1,4 +1,9 @@
 ---
+- name: install dev utilities
+  homebrew: name={{ item }}
+  with_items:
+    - tree
+    - watch
 - name: install dev software
   homebrew_cask: name={{ item }}
   with_items:
