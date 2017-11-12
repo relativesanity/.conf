@@ -36,6 +36,7 @@
     - basecamp
     - sketch
     - keybase
+    - omnifocus
 - hosts: fun
   roles:
     - steam
