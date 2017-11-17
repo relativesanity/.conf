@@ -1,7 +1,5 @@
 " set encoding
 set encoding=utf-8
-" ensure nocompatible is set, regardless of where this is loaded from
-set nocompatible
 " disable filetype detection before running Vundle
 filetype off
 
