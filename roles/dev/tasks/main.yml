@@ -5,6 +5,7 @@
     - tree
     - watch
     - fzf
+    - ripgrep
 - name: install dev software
   homebrew_cask: name={{ item }}
   with_items:
