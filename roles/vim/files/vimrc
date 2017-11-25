@@ -20,6 +20,8 @@ Plugin 'mileszs/ack.vim'
 Plugin 'bronson/vim-trailing-whitespace'
 " install ctrlp for fuzzy file finding
 Plugin 'ctrlpvim/ctrlp.vim'
+" install nerdtree
+Plugin 'scrooloose/nerdtree'
 " install surround for paren
 Plugin 'tpope/vim-surround'
 " install ragtag for HTML tag completion
@@ -33,6 +35,8 @@ Plugin 'cakebaker/scss-syntax.vim'
 Plugin 'pearofducks/ansible-vim'
 " install Puppet syntax
 Plugin 'rodjek/vim-puppet'
+" install emmet support
+Plugin 'mattn/emmet-vim'
 
 " install Rails support
 Plugin 'tpope/vim-rails'
@@ -104,3 +108,6 @@ set hlsearch
 set noswapfile
 " allow find to recursively search directories
 set path+=**
+
+" enable nerdtree toggling
+map <C-n> :NERDTreeToggle<CR>
