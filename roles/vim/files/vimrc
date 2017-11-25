@@ -110,4 +110,4 @@ set noswapfile
 set path+=**
 
 " enable nerdtree toggling
-map <LEADER>n :NERDTreeToggle<CR>
+nnoremap <LEADER>n :NERDTreeToggle<CR>
