@@ -13,6 +13,7 @@
     - dev
     - ag
     - ctags
+    - chromedriver
 - hosts: freeagent
   roles:
     - freeagent
