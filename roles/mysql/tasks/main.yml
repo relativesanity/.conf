@@ -1,0 +1,3 @@
+---
+- name: install mysql
+  homebrew: name=mysql
