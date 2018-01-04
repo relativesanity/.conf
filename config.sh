@@ -1,3 +1,3 @@
 #!/bin/sh
 
-ansible-playbook --limit `hostname` -Kb config.yml
+ansible-playbook --ask-vault-pass --limit `hostname` -Kb config.yml
