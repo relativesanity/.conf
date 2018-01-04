@@ -41,6 +41,7 @@
     - keybase
     - omnifocus
     - mysql
+    - sequel-pro
     - php
 - hosts: fun
   roles:
