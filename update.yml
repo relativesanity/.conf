@@ -41,6 +41,7 @@
     - keybase
     - omnifocus
     - mysql
+    - php
 - hosts: fun
   roles:
     - steam
