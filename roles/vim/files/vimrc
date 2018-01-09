@@ -92,6 +92,8 @@ set gdefault
 set magic
 " highlight 100th column
 set colorcolumn=100
+" I don't like wrapping
+set nowrap
 
 " defines tab and trailing space indicators
 set listchars=tab:>-,trail:-
