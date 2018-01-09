@@ -9,6 +9,7 @@
   with_items:
     - iterm2
     - ngrok
+    - atom
 - name: set up dev directories
   file: name={{ item }} state=directory
   with_items:
