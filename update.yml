@@ -22,6 +22,9 @@
 - hosts: hiring
   roles:
     - redis
+- hosts: remote
+  roles:
+    - mosh
 - hosts: home
   roles:
     - cordova
