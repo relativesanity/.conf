@@ -46,6 +46,7 @@
     - mysql
     - sequel-pro
     - php
+    - osxfuse
 - hosts: fun
   roles:
     - steam
