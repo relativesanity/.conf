@@ -34,7 +34,8 @@ alias be='bundle exec'
 alias resource='. ~/.zshrc'
 alias gs='git status'
 alias config='cd ~/.conf'
-alias facstart='devkit env start; eval "$(devkit env vars)"; bundle exec rails server'
+alias facenv='devkit env start; eval "$(devkit env vars)"'
+alias facstart='facenv; bundle exec rails server'
 function work() { jump $1 dev }
 function hack() { jump $1 dev/hacks }
 function doc() { jump $1 dev/docs }
