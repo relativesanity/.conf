@@ -1,0 +1,3 @@
+---
+- name: install transmit
+  homebrew_cask: name=transmit
