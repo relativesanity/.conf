@@ -30,6 +30,7 @@ autoload -U compinit
 compinit
 
 # set up some useful aliases
+alias ll='ls -l'
 alias be='bundle exec'
 alias resource='. ~/.zshrc'
 alias gs='git status'
@@ -54,3 +55,4 @@ source /usr/local/opt/chruby/share/chruby/auto.sh
 
 # ensure brew python is used if installed
 PATH="/usr/local/opt/python/libexec/bin:$PATH"
+PATH="/usr/local/sbin:$PATH"
