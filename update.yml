@@ -49,6 +49,7 @@
     - php
     - osxfuse
     - transmit
+    - screens-connect
 - hosts: fun
   roles:
     - steam
