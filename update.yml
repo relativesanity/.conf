@@ -50,6 +50,7 @@
     - osxfuse
     - transmit
     - screens-connect
+    - microblog
 - hosts: fun
   roles:
     - steam
