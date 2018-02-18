@@ -51,6 +51,7 @@
     - transmit
     - screens-connect
     - microblog
+    - microsoft-office
 - hosts: fun
   roles:
     - steam
