@@ -11,8 +11,8 @@ call vundle#begin()
 " allow Vundle to manage Vundle
 Plugin 'VundleVim/Vundle.vim'
 
-" install ayu colorscheme
-Plugin 'ayu-theme/ayu-vim'
+" install spacegray colorscheme
+Plugin 'ajh17/Spacegray.vim'
 
 " install Ack for smarter file searching
 Plugin 'mileszs/ack.vim'
@@ -74,10 +74,7 @@ set termguicolors
 " Access colors present in 256 colorspace
 let base16colorspace=256
 " chooses colorscheme
-" let ayucolor="light"  " for light version of theme
-let ayucolor="mirage" " for mirage version of theme
-" let ayucolor="dark"   " for dark version of theme
-colorscheme ayu
+colorscheme spacegray
 
 " follows indent of previous line when creating a new line
 set autoindent
