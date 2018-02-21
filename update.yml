@@ -52,6 +52,7 @@
     - screens-connect
     - microblog
     - microsoft-office
+    - fonts
 - hosts: fun
   roles:
     - steam

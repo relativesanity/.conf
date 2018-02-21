@@ -1,0 +1,8 @@
+---
+- name: tap brew fonts
+  homebrew_tap: name=caskroom/fonts
+- name: install fonts
+  homebrew_cask: name={{ item }}
+  with_items:
+    - font-fira-mono-for-powerline
+    - font-inconsolata-for-powerline
