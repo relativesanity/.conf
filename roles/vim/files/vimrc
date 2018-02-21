@@ -42,6 +42,8 @@ Plugin 'mattn/emmet-vim'
 
 " install Rails support
 Plugin 'tpope/vim-rails'
+" install Ruby support
+Plugin 'vim-ruby/vim-ruby'
 
 " finish Vundle operations
 call vundle#end()
