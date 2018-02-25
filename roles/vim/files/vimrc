@@ -11,8 +11,8 @@ call vundle#begin()
 " allow Vundle to manage Vundle
 Plugin 'VundleVim/Vundle.vim'
 
-" install spacegray colorscheme
-Plugin 'ajh17/Spacegray.vim'
+" install onedark colorscheme
+Plugin 'joshdick/onedark.vim'
 
 " install Ack for smarter file searching
 Plugin 'mileszs/ack.vim'
@@ -71,10 +71,9 @@ let g:ctrlp_custom_ignore = {
 
 " enables 24-bit color
 set termguicolors
-" Access colors present in 256 colorspace
-let base16colorspace=256
-" chooses colorscheme
-colorscheme spacegray
+" use onedark colorscheme
+colorscheme onedark
+
 
 " follows indent of previous line when creating a new line
 set autoindent

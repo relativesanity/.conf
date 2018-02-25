@@ -53,6 +53,7 @@
     - microblog
     - microsoft-office
     - fonts
+    - setapp
 - hosts: fun
   roles:
     - steam
