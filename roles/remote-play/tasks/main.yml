@@ -1,0 +1,3 @@
+---
+- name: install PS4 remote play
+  homebrew_cask: name=remote-play

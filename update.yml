@@ -58,3 +58,4 @@
 - hosts: fun
   roles:
     - steam
+    - remote-play
