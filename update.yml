@@ -38,6 +38,7 @@
     - heroku
     - transporter
     - dropbox
+    - onedrive
     - vmware
     - duet
     - basecamp

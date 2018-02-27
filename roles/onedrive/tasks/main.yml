@@ -1,0 +1,3 @@
+---
+- name: install One Drive
+  homebrew_cask: name=onedrive
