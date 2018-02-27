@@ -1,0 +1,3 @@
+---
+- name: install libsndfile
+  homebrew: name=libsndfile

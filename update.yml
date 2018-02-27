@@ -49,6 +49,7 @@
     - sequel-pro
     - php
     - taglib
+    - libsndfile
     - osxfuse
     - transmit
     - screens-connect
