@@ -48,6 +48,7 @@
     - mysql
     - sequel-pro
     - php
+    - taglib
     - osxfuse
     - transmit
     - screens-connect
