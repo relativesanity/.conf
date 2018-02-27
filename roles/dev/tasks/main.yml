@@ -10,6 +10,7 @@
     - iterm2
     - ngrok
     - atom
+    - visual-studio-code
 - name: set up dev directories
   file: name={{ item }} state=directory
   with_items:
