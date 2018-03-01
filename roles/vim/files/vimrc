@@ -11,8 +11,11 @@ call vundle#begin()
 " allow Vundle to manage Vundle
 Plugin 'VundleVim/Vundle.vim'
 
-" install onedark colorscheme
+" install colorschemes
 Plugin 'joshdick/onedark.vim'
+Plugin 'zaki/zazen'
+Plugin 'mkarmona/colorsbox'
+Plugin 'ayu-theme/ayu-vim'
 
 " install Ack for smarter file searching
 Plugin 'mileszs/ack.vim'
@@ -71,8 +74,12 @@ let g:ctrlp_custom_ignore = {
 
 " enables 24-bit color
 set termguicolors
-" use onedark colorscheme
-colorscheme onedark
+" set up colorschemes
+" let ayucolor="light"
+" let ayucolor="mirage"
+let ayucolor="dark"
+" select colorscheme
+colorscheme ayu
 
 
 " follows indent of previous line when creating a new line
