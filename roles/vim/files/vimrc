@@ -101,7 +101,7 @@ set gdefault
 " Use 'magic' patterns (extended regular expressions).
 set magic
 " highlight 100th column
-set colorcolumn=100
+set colorcolumn=96
 " I don't like wrapping
 set nowrap
 " let the statusline handle modes
