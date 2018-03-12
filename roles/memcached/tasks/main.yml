@@ -1,0 +1,3 @@
+---
+- name: install memcached
+  homebrew: name=memcached

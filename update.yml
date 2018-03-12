@@ -29,6 +29,7 @@
 - hosts: home
   roles:
     - cordova
+    - memcached
     - encryptme
     - postgresql
     - backblaze
