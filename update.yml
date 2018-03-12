@@ -25,6 +25,7 @@
 - hosts: remote
   roles:
     - mosh
+    - screens-connect
 - hosts: home
   roles:
     - cordova
@@ -52,11 +53,9 @@
     - libsndfile
     - osxfuse
     - transmit
-    - screens-connect
     - microblog
     - microsoft-office
     - fonts
-    - setapp
 - hosts: fun
   roles:
     - steam
