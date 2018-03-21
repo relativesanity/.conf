@@ -8,9 +8,7 @@
   homebrew_cask: name={{ item }}
   with_items:
     - iterm2
-    - hyper
     - ngrok
-    - atom
     - visual-studio-code
 - name: set up dev directories
   file: name={{ item }} state=directory
