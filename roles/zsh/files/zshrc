@@ -48,6 +48,7 @@ function jump() {
     cd `ls -dt1 ~/${2}/${1}* | head -n1`
   fi
 }
+alias wk='work'
 
 # configure chruby to be available and auto-detecting
 source /usr/local/opt/chruby/share/chruby/chruby.sh
