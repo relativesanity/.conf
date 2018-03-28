@@ -17,5 +17,6 @@
     - ruby 2.3.5
     - ruby 2.4.1
     - ruby 2.4.2
+    - ruby 2.5.0
 - name: set default ruby
   copy: src=ruby-version dest=~/.ruby-version
