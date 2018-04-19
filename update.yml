@@ -18,7 +18,6 @@
   roles:
     - freeagent
     - postgresql
-    - google-chrome
 - hosts: hiring
   roles:
     - redis
