@@ -50,6 +50,15 @@ function jump() {
 }
 alias wk='work'
 
+# Bootstrap a puppet agent
+function bootstrap() {
+  local _host
+  for _host in "$@";
+  do
+    echo $_host | ssh root@$_host 'cat > /etc/hostname; bash < <(wget -qO - https://gist.githubusercontent.com/relativesanity/3dedd2335345b180eae2/raw/78ad6d4848f70332a21b0ec7d111bfbfc0170ce4/puppet-bootstrap.sh)'
+  done
+}
+
 # configure chruby to be available and auto-detecting
 source /usr/local/opt/chruby/share/chruby/chruby.sh
 source /usr/local/opt/chruby/share/chruby/auto.sh
