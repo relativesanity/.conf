@@ -10,6 +10,7 @@
     - iterm2
     - ngrok
     - visual-studio-code
+    - sublime-text
 - name: set up dev directories
   file: name={{ item }} state=directory
   with_items:
