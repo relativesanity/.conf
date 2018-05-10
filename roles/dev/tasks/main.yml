@@ -11,6 +11,8 @@
     - ngrok
     - visual-studio-code
     - sublime-text
+    - google-chrome
+    - firefox
 - name: set up dev directories
   file: name={{ item }} state=directory
   with_items:
