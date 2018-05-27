@@ -1,6 +1,6 @@
 ---
 - name: tap brew fonts
-  homebrew_tap: name=caskroom/fonts
+  homebrew_tap: name=homebrew/homebrew-cask-fonts
 - name: install fonts
   homebrew_cask: name={{ item }}
   with_items:
