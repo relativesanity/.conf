@@ -49,7 +49,6 @@ function jump() {
     cd `ls -dt1 ~/${2}/${1}* | head -n1`
   fi
 }
-alias wk='work'
 
 # Bootstrap a puppet agent
 function bootstrap() {
