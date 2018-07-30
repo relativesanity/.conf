@@ -8,12 +8,7 @@
   homebrew_cask: name={{ item }}
   with_items:
     - iterm2
-    - ngrok
-    - visual-studio-code
-    - sublime-text
-    - google-chrome
-    - firefox
-    - vanilla
+    - atom
 - name: set up dev directories
   file: name={{ item }} state=directory
   with_items:
