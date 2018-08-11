@@ -9,3 +9,6 @@
     - ruby
     - dev
     - neovim
+- hosts: mira
+  roles:
+    - omnifocus
