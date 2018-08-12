@@ -9,6 +9,7 @@
     - ruby
     - dev
     - neovim
-- hosts: mira
+- hosts: home
   roles:
     - omnifocus
+    - encryptme
