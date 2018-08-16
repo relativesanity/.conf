@@ -9,3 +9,6 @@
     - ruby
     - dev
     - vim
+- hosts: home
+  roles:
+    - alfred
