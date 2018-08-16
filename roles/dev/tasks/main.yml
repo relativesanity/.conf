@@ -4,11 +4,12 @@
   with_items:
     - tree
     - watch
+    - fzf
+    - ag
 - name: install dev software
   homebrew_cask: name={{ item }}
   with_items:
     - iterm2
-    - atom
 - name: set up dev directories
   file: name={{ item }} state=directory
   with_items:

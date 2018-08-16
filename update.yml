@@ -8,8 +8,4 @@
     - tmux
     - ruby
     - dev
-    - neovim
-- hosts: home
-  roles:
-    - omnifocus
-    - encryptme
+    - vim

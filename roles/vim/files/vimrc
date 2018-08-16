@@ -12,17 +12,15 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 " install colorschemes
-Plugin 'joshdick/onedark.vim'
-Plugin 'zaki/zazen'
-Plugin 'mkarmona/colorsbox'
-Plugin 'ayu-theme/ayu-vim'
+Plugin 'cocopon/iceberg.vim'
 
 " install Ack for smarter file searching
 Plugin 'mileszs/ack.vim'
 " install trailing whitespace to highlight trailing whitespace
 Plugin 'bronson/vim-trailing-whitespace'
 " install ctrlp for fuzzy file finding
-Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'junegunn/fzf'
+Plugin 'junegunn/fzf.vim'
 " install nerdtree
 Plugin 'scrooloose/nerdtree'
 " install lightline statusline
@@ -41,7 +39,7 @@ Plugin 'pearofducks/ansible-vim'
 " install Puppet syntax
 Plugin 'rodjek/vim-puppet'
 " install emmet support
-Plugin 'mattn/emmet-vim'
+" Plugin 'mattn/emmet-vim'
 
 " install Rails support
 Plugin 'tpope/vim-rails'
@@ -65,22 +63,11 @@ if executable('ag')
   " configure Ack to use ag
   let g:ackprg = 'ag --vimgrep'
 endif
-" configure ctrlp
-let g:ctrlp_show_hidden = 1 " show hidden files
-" exclude certain directories, files etc
-let g:ctrlp_custom_ignore = {
-  \ 'dir':  '\v[\/](node_modules|\.git|tmp|log)$',
-  \ }
 
 " enables 24-bit color
 set termguicolors
-" set up colorschemes
-" let ayucolor="light"
-" let ayucolor="mirage"
-let ayucolor="dark"
 " select colorscheme
-colorscheme ayu
-
+colorscheme iceberg
 
 " follows indent of previous line when creating a new line
 set autoindent
@@ -125,3 +112,4 @@ set path+=**
 
 " enable nerdtree toggling
 nnoremap <LEADER>n :NERDTreeToggle<CR>
+nnoremap <C-p> :Files<CR>
