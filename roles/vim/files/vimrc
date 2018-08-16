@@ -1,5 +1,7 @@
 " set encoding
 set encoding=utf-8
+" ensure a compatible shell is used
+set shell=/bin/bash
 " disable filetype detection before running Vundle
 filetype off
 
