@@ -9,6 +9,3 @@
     - ruby
     - dev
     - neovim
-- hosts: home
-  roles:
-    - alfred
