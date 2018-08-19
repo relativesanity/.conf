@@ -8,7 +8,6 @@
     - tmux
     - ruby
     - dev
-    - vim
     - neovim
 - hosts: home
   roles:
