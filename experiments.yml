@@ -1,5 +1,0 @@
----
-- name: experiments
-  hosts: mirsky
-  roles:
-    - neovim
