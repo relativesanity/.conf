@@ -1,0 +1,3 @@
+---
+- name: install postgresql
+  homebrew: name=postgresql
