@@ -1,3 +1,5 @@
 ---
 - name: install postgresql
   homebrew: name=postgresql
+- name: install yarn
+  homebrew: name=yarn
