@@ -6,6 +6,7 @@
     - watch
     - fzf
     - ag
+    - prettyping
 - name: install dev software
   homebrew_cask: name={{ item }}
   with_items:
