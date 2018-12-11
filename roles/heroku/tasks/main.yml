@@ -1,11 +1,3 @@
 ---
 - name: install heroku toolbelt
-  homebrew: name=heroku
-- name: ensure config directory exists
-  file: path={{ item }} state=directory mode=0755
-  with_items:
-    - ~/.local
-    - ~/.local/share
-    - ~/.local/share/heroku
-- name: copy config
-  copy: src=config.json dest=~/.local/share/heroku mode=0644
+  homebrew: name=heroku/brew/heroku
