@@ -3,4 +3,3 @@
   roles:
     - rails
     - heroku
-    - vmware
