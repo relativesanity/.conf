@@ -1,6 +1,5 @@
 ---
 - hosts: all
   roles:
-    - omnifocus
     - backblaze
     - encryptme
