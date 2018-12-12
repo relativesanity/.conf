@@ -5,25 +5,16 @@ bindkey -v
 export EDITOR=vim
 export VISUAL=vim
 
-# set architecture flags
-export ARCHFLAGS="-arch x86_64"
-
 # set command prompt
 source "/usr/local/opt/zsh-git-prompt/zshrc.sh"
 setopt prompt_subst
 export PS1='%n@%m %. $(git_super_status)
 %# '
 
-# assume bare words are an attempt to cd to that dir
-setopt auto_cd
-
 # set history params
 HISTSIZE=1000
 SAVEHIST=1000
 HISTFILE=~/.history
-
-# allow ESC-q to stash the current line
-bindkey '\eq' push-line-or-edit
 
 # set up completions in general
 autoload -U compinit
