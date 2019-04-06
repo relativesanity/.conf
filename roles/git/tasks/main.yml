@@ -1,9 +1,7 @@
 ---
 - name: install git and helpers
-  homebrew: name={{ item }}
-  with_items:
-    - git
-    - zsh-git-prompt
+  homebrew:
+    name: ['git', 'zsh-git-prompt']
 - name: configure git name
   git_config:
     name: user.name
