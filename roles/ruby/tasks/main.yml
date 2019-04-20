@@ -10,5 +10,6 @@
     - ruby 2.3.7
     - ruby 2.5.3
     - ruby 2.6.2
+    - ruby 2.6.3
 - name: set default ruby
   copy: src=ruby-version dest=~/.ruby-version
