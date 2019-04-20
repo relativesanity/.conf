@@ -5,8 +5,6 @@
     - rails
     - heroku
     - vmware
-    - firefox
-    - google-chrome
     - terraform
     - jq
     - mosh
