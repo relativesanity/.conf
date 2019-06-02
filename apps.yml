@@ -1,0 +1,10 @@
+---
+- hosts: all
+  roles:
+    - backblaze
+    - encryptme
+    - steam
+    - omnifocus
+    - omniplan
+    - omnipresence
+    - transmit

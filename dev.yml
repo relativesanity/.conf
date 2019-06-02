@@ -1,0 +1,11 @@
+---
+- hosts: all
+  roles:
+    - ruby
+    - rails
+    - heroku
+    - vmware
+    - terraform
+    - jq
+    - mosh
+    - vscode

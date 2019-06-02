@@ -40,8 +40,10 @@ Plugin 'cakebaker/scss-syntax.vim'
 Plugin 'pearofducks/ansible-vim'
 " install Puppet syntax
 Plugin 'rodjek/vim-puppet'
+" install Terraform support
+Plugin 'hashivim/vim-terraform'
 " install emmet support
-" Plugin 'mattn/emmet-vim'
+Plugin 'mattn/emmet-vim'
 
 " install Rails support
 Plugin 'tpope/vim-rails'

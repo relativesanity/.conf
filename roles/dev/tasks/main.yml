@@ -1,7 +1,7 @@
 ---
 - name: install dev utilities
   homebrew:
-    name: ['tree', 'watch', 'fzf', 'ag']
+    name: ['tree', 'watch', 'fzf', 'ag', 'prettyping']
 - name: install dev software
   homebrew_cask:
     name: iterm2

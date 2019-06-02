@@ -1,0 +1,3 @@
+---
+- name: install OmniPlan
+  homebrew_cask: name=omniplan accept_external_apps=True
