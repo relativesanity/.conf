@@ -1,0 +1,3 @@
+---
+- name: install cocoapods
+  homebrew: name=cocoapods
