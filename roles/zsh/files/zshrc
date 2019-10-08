@@ -41,6 +41,11 @@ function jump() {
   fi
 }
 
+# Bootstrap a tmux session
+function start() {
+  tmux -2 attach -t ${1-dev} || tmux -2 new -s ${1-dev}
+}
+
 # Bootstrap a puppet agent
 function bootstrap() {
   local _host
