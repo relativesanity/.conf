@@ -3,3 +3,8 @@
   roles:
     - backblaze
     - encryptme
+    - vmware
+    - parallels
+    - omnifocus
+    - omniplan
+    - omnioutliner

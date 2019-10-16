@@ -1,0 +1,3 @@
+---
+- name: install OmniOutliner
+  homebrew_cask: name=omnioutliner accept_external_apps=True
