@@ -5,3 +5,5 @@
   homebrew_tap: name=homebrew/services
 - name: tap brew cask versions
   homebrew_tap: name=homebrew/cask-versions
+- name: tap brew cask fonts
+  homebrew_tap: name=homebrew/cask-fonts
