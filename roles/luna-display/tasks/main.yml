@@ -1,0 +1,3 @@
+---
+- name: install luna display drivers
+  homebrew_cask: name=luna-display

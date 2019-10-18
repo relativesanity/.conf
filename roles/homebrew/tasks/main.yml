@@ -7,3 +7,5 @@
   homebrew_tap: name=homebrew/cask-versions
 - name: tap brew cask fonts
   homebrew_tap: name=homebrew/cask-fonts
+- name: tap brew cask drivers
+  homebrew_tap: name=homebrew/cask-drivers
