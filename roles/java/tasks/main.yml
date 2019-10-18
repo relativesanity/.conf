@@ -1,0 +1,3 @@
+---
+- name: install java8
+  homebrew_cask: name=adoptopenjdk8
