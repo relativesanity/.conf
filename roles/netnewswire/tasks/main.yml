@@ -1,0 +1,3 @@
+---
+- name: install NetNewsWire RSS Client
+  homebrew_cask: name=netnewswire
