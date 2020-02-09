@@ -1,0 +1,3 @@
+---
+- name: install Atom
+  homebrew_cask: name=atom
