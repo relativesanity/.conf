@@ -1,12 +1,8 @@
 ---
 - name: install neovim
   homebrew: name=neovim
-- name: install python2
-  homebrew: name=python2
-- name: ensure neovim has python access
-  command: pip2 install --upgrade neovim
-- name: install python3
-  homebrew: name=python3
+- name: install python
+  homebrew: name=python
 - name: ensure neovim has python access
   command: pip3 install --upgrade neovim
 - name: ensure config directory exists
