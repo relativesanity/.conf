@@ -1,0 +1,3 @@
+---
+- name: install powerphotos
+  homebrew_cask: name=powerphotos
