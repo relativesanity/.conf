@@ -1,0 +1,3 @@
+---
+- name: install DEVONThink
+  homebrew_cask: name=devonthink
