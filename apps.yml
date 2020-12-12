@@ -3,14 +3,5 @@
   roles:
     - backblaze
     - encryptme
-    - transmit
-    - luna-display
     - omnifocus
-    - omnigraffle
-    - omnioutliner
-    - omniplan
-    - bbedit
-    - google-chrome
-    - powerphotos
     - devonthink
-    - keyboard-maestro
