@@ -6,6 +6,6 @@
     - bash
     - zsh
     - tmux
-    - ruby
+    - chruby
     - dev
     - neovim

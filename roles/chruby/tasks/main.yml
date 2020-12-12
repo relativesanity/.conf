@@ -1,0 +1,7 @@
+---
+- name: install chruby and ruby-install
+  homebrew:
+    name: ['chruby', 'ruby-install']
+- name: update ruby-install
+  command: ruby-install -L
+
