@@ -64,4 +64,4 @@ PATH="/usr/local/opt/python/libexec/bin:$PATH"
 PATH="/usr/local/sbin:$PATH"
 
 # allow default scripts to live in ./bin
-PATH="./bin:$PATH"
+# PATH="./bin:$PATH"
