@@ -15,6 +15,7 @@ Plugin 'VundleVim/Vundle.vim'
 
 " install colorschemes
 Plugin 'cocopon/iceberg.vim'
+Plugin 'ayu-theme/ayu-vim'
 
 " install Ack for smarter file searching
 Plugin 'mileszs/ack.vim'
@@ -72,6 +73,10 @@ endif
 set termguicolors
 " select colorscheme
 colorscheme iceberg
+" let ayucolor="light"  " for light version of theme
+let ayucolor="mirage" " for mirage version of theme
+" let ayucolor="dark"   " for dark version of theme
+colorscheme ayu
 
 " follows indent of previous line when creating a new line
 set autoindent
