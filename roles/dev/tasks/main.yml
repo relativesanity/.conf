@@ -2,9 +2,6 @@
 - name: install dev utilities
   homebrew:
     name: ['tree', 'watch', 'fzf', 'ag', 'prettyping']
-- name: install dev software
-  homebrew_cask:
-    name: iterm2
 - name: set up dev directories
   file: name={{ item }} state=directory
   with_items:

@@ -1,0 +1,6 @@
+---
+- name: install dev software
+  homebrew:
+    accept_external_apps: true
+    install_options: cask
+    name: iterm2

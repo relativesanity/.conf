@@ -1,3 +1,3 @@
 ---
 - name: install docker
-  homebrew_cask: name=docker accept_external_apps=True
+  homebrew: install_options=cask name=docker
