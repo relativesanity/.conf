@@ -30,6 +30,7 @@ alias config='cd ~/.conf'
 alias facenv='devkit env start; eval "$(devkit env vars)"'
 alias facstart='facenv; bundle exec rails server'
 function work() { jump $1 dev }
+alias dev='work'
 function hack() { jump $1 dev/hacks }
 function doc() { jump $1 dev/docs }
 function hiring() { jump $1 dev/hiring }

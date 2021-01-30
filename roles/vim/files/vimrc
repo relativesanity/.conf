@@ -72,7 +72,7 @@ endif
 " enables 24-bit color
 set termguicolors
 " select colorscheme
-colorscheme iceberg
+" colorscheme iceberg
 " let ayucolor="light"  " for light version of theme
 let ayucolor="mirage" " for mirage version of theme
 " let ayucolor="dark"   " for dark version of theme
@@ -122,3 +122,4 @@ set path+=**
 " enable nerdtree toggling
 nnoremap <LEADER>n :NERDTreeToggle<CR>
 nnoremap <C-p> :Files<CR>
+nnoremap <C-s> :w<CR>
